@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>
+  <title>Pagina mea</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stil.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <header>
+  <h1 align="center" ><strong>Obiective turistice din Republica Moldova</strong></h1>
+  </header>
+  <script>
+  function onplayCounter() {
+      if(typeof(Storage) !== "undefined") {
+          if (localStorage.onplay) {
+              localStorage.onplay = Number(localStorage.onplay)+1;
+          } else {
+              localStorage.onplay = 1;
+          }
+          document.getElementById("mykey").innerHTML = "Video are " + localStorage.onplay + " vizualizari";
+      } else {
+          document.getElementById("mykey").innerHTML = "Sorry, your browser does not support web storage...";
+      }
+  }
+  </script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="monumente.html">Cetatea Sorocii</a></a></li>
+        <li><a href="orhei.html">Orheiul Vechi</a></li>
+        <li><a href="#">Cultura religioasă</a></li>
+        <li><a href="contacte.html">Contacte</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><h2>Cerul tău, Moldova</h2><br /><br />
+    de Dumitru Matcovschi<br />
+        (fragment)<br /><br />
+Cerul tau, Moldova, e de-albastru,<br />
+e de verde frunza ta oricand.<br />
+Pamant mai scump pe lume nu e,<br />
+nici mai dulce nu e un pamant.<br />
+Casa mea la margine de Tara<br>
+creste fir de busuioc in prag.<br />
+Nu e nicaieri un plai mai tanar,<br />
+nu e nicaieri un plai mai drag.<br />
+Arde-n soare roua diminetii<br />
+ca o ploaie grea de margarint<br />
+La Moldova orice primavara<br />
+e de randunica si argint.<br />
+Se implina spicul ca voinicul:<br />
+de lumina blanda soapta lui.<br />
+Nu-i o alta glie mai frumoasa,<br />
+alta glie mai aleasa nu-i.<br />
+Tu esti partea noastra de iubire,<br />
+tu esti dorul nostru cel mai dor;<br />
+pleaca cineva de langa tine,<br />
+niciodata nu ti-a fost fecior!<br />
+Doina ta, Moldova, e de leagan,<br />
+hora ta de codru e, de grui.<br />
+Nu-i pe lume alt meleag mai pasnic,<br />
+alt meleag mai sfant pe lume nu-i!
+      </p><br /><br />
+      <figure>
+      <img src="images\photo4.jpg" alt="Dumitru Matcovski" height="200" width="220" />
+      <figcaption>Dumitru Matcovski</figcaption>
+    </figure><br /><br />
+    </div>
+    <div class="col-sm-8 text-left">
+      <center><h2>Moldova-destinație pitorească</h2></center>
+    <center><p>În timp ce agenţiile turistice ne tentează cu oferte de călătorii în ţări străine şi exotice, locurile frumoase din Republica Moldova aşteaptă să fie redescoperite. Aceasta este o destinaţie foarte pitorească, iar dealurile verzi şi satele pastorale, lacurile
+        senine şi domeniile vaste de floarea-soarelui îi conferă un farmec aparte.</p></center>
+      <div class="container">
+        <br />
+        <br />
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <img src="images\foto3.jpg" alt="Cricova" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Cricova</h3>
+                <p>Combinatul de vinuri Cricova SA a fost fondat în anul 1952, reprezentând un complex subteran unic, cunoscut în întreaga
+                  lume pentru labirinturile sale imense și în special pentru vinurile sale excelente. Un ținut cu multiple podgorii și cu soare din belșug.
+                   Anume aici începe istoria perlelor vinificației moldave, în zona centrală a Moldovei, zona Codrilor.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images\codrii_Moldovei.jpg" alt="Codrii Moldovei" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Codrii Moldovei</h3>
+                <p>Codrul (plural Codrii Moldovei) constituie un masiv forestier amplasat în centrul deluros al Republicii Moldova, pe Podișul
+                   Moldovei Centrale, ocupând cca. 40% din suprafața acestui platou înalt. Pădurile ocupă preponderent altitudinile maxime,
+                  dintre 200 și 430 m (dealul Bălănești).</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images\lavander.jpg" alt="Frumusetea sudului" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Levantica</h3>
+                <p>Aroma florilor de levănțică este asemenea aerului proaspăt de după ploaie,
+                  iar gândul te duce imediat spre lanurile de plante violete sub cerul verii. </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images\foto5.jpg" alt="Parcaul Taul" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Parcul  Tăul</h3>
+                <p>Aproximativ la 200 km de Chişinău, la Nord în centrul satului Tăul din raionul Donduşeni
+                   se află cel mai mare parc din Moldova.Colecţia dendrologică are aproximativ 150 de specii de copaci,
+                    arbuşti şi liane, dintre care mai mult de 100 sunt exotice.</p>
+              </div>
+            </div>
+
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><br />
+
+        <h4><strong>„Nimeni nu poate fi istoric dacă nu este însoțit de curiozitate”. Arnold Toynbee</strong></h4>
+          <p>
+            Patrimoniul cultural al Republicii Moldova reprezintă o totalitate de valori și bunuri culturale (materiale și imateriale, mobile și imobile) de importanță locală, națională și mondială, constituit pe parcursul istoriei.
+          Actualmente în republică are loc reconsiderarea atitudinii societății față de patrimoniu cultural, față de diversitatea expresiilor culturale.
+        </p>
+      </div>
+      <center>
+        <video onplay="onplayCounter()" width="600px" height="300px" controls>
+          <source src="Cele mai frumoase locuri din Moldova.mp4" type="video/mp4" /></video>
+        <div id="mykey"></div><br /><br /></center>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <figure>
+        <img src="images\photo1.jpeg" alt="Republica Moldova" height="190" width="200" />
+      <figcaption>Harta Republicii Moldova</figcaption>
+    </figure><br />
+    <figure>
+    <img src="images\photo2.jpg" alt="Satul Trebujeni" height="190" width="200" />
+    <figcaption>Satul Trebujeni de-a lungul Răutului</figcaption>
+  </figure><br />
+  <figure>
+  <img src="images\photo3.jpg" alt="Republica Moldova" height="210" width="200" />
+  <figcaption>Plăcinte moldovenești, imagine de Ion Chibzii, anii '80</figcaption>
+</figure><br />
+<figure>
+<img src="images\photo5.jpg" alt="Orheiul Vechi" height="180" width="200" />
+<figcaption>Orheiul Vechi</figcaption>
+</figure><br />
+
+    </div>
+  </div>
+</div>
+<footer class="container-fluid text-center">
+  <p>Copyright © 2020 Matievici Olga. Toate drepturile rezervate.</p>
+</footer>
+</body>
+</html>
